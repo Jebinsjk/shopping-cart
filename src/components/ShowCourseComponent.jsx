@@ -8,7 +8,7 @@ function ShowCourseComponent({ courses,
 		<div className="product-list">
 			{filterCourseFunction.length === 0 ? (
 				<p className="no-results">
-					Sorry Geek, No matching Product found.
+					Sorry , No matching Product found.
 				</p>
 			) : (
 				filterCourseFunction.map((product) => (
